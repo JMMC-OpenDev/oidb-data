@@ -19,9 +19,9 @@ declare
     %output:media-type("application/json")
 function kw:list($q as xs:string*) as xs:string {
     let $keywords := if (exists($q)) then
-            collection("/db/oidb/keywords")//keyword[contains(upper-case(.), upper-case($q))]/text()
+            collection("/db/apps/oidb-data/keywords")//keyword[contains(upper-case(.), upper-case($q))]/text()
         else
-            collection("/db/oidb/keywords")//keyword/text()
+            collection("/db/apps/oidb-data/keywords")//keyword/text()
     (: reformat sequence as JavaScript array :)
     return concat(
         "[",

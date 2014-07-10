@@ -13,7 +13,7 @@ declare
 function coll:list() as element(collections) {
     <collections>
     {
-        for $c in collection("/db/oidb/collections")/collection
+        for $c in collection("/db/apps/oidb-data/collections")/collection
         return <collection id="{$c/@id}" created="{$c/@created}"/>
     }
     </collections>
@@ -23,7 +23,7 @@ declare
     %rest:GET
     %rest:path("/oidb/collection/{$id}")
 function coll:retrieve-collection($id as xs:string) as element(collection)? {
-    collection("/db/oidb/collections")/collection[@id eq xmldb:decode($id)]
+    collection("/db/apps/oidb-data/collections")/collection[@id eq xmldb:decode($id)]
 };
 
 declare
@@ -38,7 +38,7 @@ function coll:store-collection($id as xs:string, $collection-doc as document-nod
             ()
     return not(empty(
         xmldb:store(
-            "/db/oidb/collections",
+            "/db/apps/oidb-data/collections",
             $filename,
             (: TODO set updated instead of created if already exists :)
             <collection id="{xmldb:decode($id)}" created="{current-dateTime()}">
