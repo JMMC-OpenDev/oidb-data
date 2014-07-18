@@ -18,18 +18,47 @@ declare variable $instrument:asproconf-uri := '/db/apps/oidb-data/instruments';
 (:~
  : Return a list of all instruments known with their hosting facilities.
  : 
+ : It accepts patterns for instrument name and/or facility name and return only
+ : matching pairs. The patterns are normalized: they are stripped of any
+ : non-alphabetic characters that are typically appended to instrument names
+ : for description of the instrument mode.
+ : 
+ : The name comparison is case-insensitive.
+ : 
+ : Note: the suffix for the number of telescopes in the names of instruments is
+ : ignored.
+ : 
  : @return an XML documents with <instrument/> elements.
  :)
 declare
     %rest:GET
     %rest:path("/oidb/instrument")
-function instrument:list() as element(instruments) {
+    %rest:query-param("facility_name", "{$facname}")
+    %rest:query-param("instrument_name", "{$insname}")
+function instrument:list($facname as xs:string*, $insname as xs:string*) as element(instruments) {
     <instruments> {
-        let $facilities := collection($instrument:asproconf-uri)/a:interferometerSetting/description
-        
-        let $instruments := $facilities/focalInstrument
-        for $i in $instruments
-        return <instrument facility="{$i/../name}" name="{$i/name/text()}"/>
+        (: keep leading alphabetic chars from string :)
+        let $normalize := function ($x as xs:string?) {
+            upper-case(tokenize($x, '[^A-Za-z]')[1])
+        }
+        (: list of facilities matching $facname :)
+        let $facilities :=
+            let $all      := collection($instrument:asproconf-uri)/a:interferometerSetting/description
+            let $filtered := $all[upper-case(./name)=$normalize($facname)]
+            return if (empty($filtered)) then $all else $filtered
+        for $f in $facilities
+        (: list of instruments matching $insname in given facility :)
+        let $instruments :=
+            let $instruments := if ($insname != '') then
+                    $f/focalInstrument[starts-with(upper-case(./name), $normalize($insname))]
+                else
+                    $f/focalInstrument
+            (: filter out number of telescopes from full names :)
+            let $names := for $x in $instruments/name/text() return $normalize($x)
+            return $instruments[index-of($names, $normalize(./name))[1]]
+        return
+            for $i in $instruments
+            return <instrument facility="{$f/name}" name="{$normalize($i/name)}"/>
     } </instruments>
 };
 
