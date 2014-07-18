@@ -73,7 +73,8 @@ declare
     %rest:path("/oidb/instrument/{$name}/mode")
 function instrument:modes($name as xs:string) as element(modes) {
     <modes> {
-        let $instrument := collection($instrument:asproconf-uri)/a:interferometerSetting/description/focalInstrument[./name=$name]
+        (: find instrument by name or canonical name (no _xT suffix) :)
+        let $instrument := collection($instrument:asproconf-uri)//focalInstrument[./name=$name or starts-with(./name, $name || '_')]
         let $modes := $instrument/mode
         (: for same instrument at 2 facilities, return only one set of modes :)
         for $m in distinct-values($modes/name/text())
