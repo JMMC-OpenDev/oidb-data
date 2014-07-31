@@ -26,29 +26,38 @@ declare %private function coll:find($id as xs:string) as element(collection)? {
 declare
     %rest:GET
     %rest:path("/oidb/collection/{$id}")
-function coll:retrieve-collection($id as xs:string) as element(collection)? {
-    coll:find(xmldb:decode($id)
+function coll:retrieve-collection($id as xs:string) {
+    let $collection := coll:find(xmldb:decode($id))
+    return
+        if ($collection) then $collection
+        else <rest:response><http:response status="404"/></rest:response>
 };
 
 declare
     %rest:PUT("{$collection-doc}")
     %rest:path("/oidb/collection/{$id}")
-function coll:store-collection($id as xs:string, $collection-doc as document-node()) as xs:boolean {
+function coll:store-collection($id as xs:string, $collection-doc as document-node()) {
     let $id := xmldb:decode($id)
-    let $existing-collection := coll:find($id)
+    let $collection := coll:find($id)
     let $filename :=
-        if (not(empty($existing-collection))) then
-            document-uri(root($existing-collection))  
+        if ($collection) then
+            (: update collection :)
+            document-uri(root($collection))
         else
+            (: new collection :)
             ()
-    return not(empty(
-        xmldb:store(
-            "/db/apps/oidb-data/collections",
-            $filename,
-            (: TODO set updated instead of created if already exists :)
-            <collection id="{$id}" created="{current-dateTime()}">
-                { $collection-doc/collection/* }
-            </collection>
-        )
-    ))
+    let $collection :=
+        <collection id="{$id}"> {
+            if ($collection) then ( $collection/@created, attribute { "updated" } { current-dateTime() } )
+            else attribute { "created" } { current-dateTime() },
+            $collection-doc/collection/*
+        } </collection>
+    let $path := xmldb:store("/db/apps/oidb-data/collections", $filename, $collection)
+    return <rest:response>
+        <http:response> { attribute { "status" } {
+            if ($filename and $path) then 204 (: No Content :)
+            else if ($path)          then 201 (: Created :)
+            else                          400 (: Bad Request :)
+        } } </http:response>
+    </rest:response>
 };
