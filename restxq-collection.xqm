@@ -19,18 +19,23 @@ function coll:list() as element(collections) {
     </collections>
 };
 
+declare %private function coll:find($id as xs:string) as element(collection)? {
+    collection("/db/apps/oidb-data/collections")/collection[@id eq $id]
+};
+
 declare
     %rest:GET
     %rest:path("/oidb/collection/{$id}")
 function coll:retrieve-collection($id as xs:string) as element(collection)? {
-    collection("/db/apps/oidb-data/collections")/collection[@id eq xmldb:decode($id)]
+    coll:find(xmldb:decode($id)
 };
 
 declare
     %rest:PUT("{$collection-doc}")
     %rest:path("/oidb/collection/{$id}")
 function coll:store-collection($id as xs:string, $collection-doc as document-node()) as xs:boolean {
-    let $existing-collection := coll:retrieve-collection($id)
+    let $id := xmldb:decode($id)
+    let $existing-collection := coll:find($id)
     let $filename :=
         if (not(empty($existing-collection))) then
             document-uri(root($existing-collection))  
@@ -41,7 +46,7 @@ function coll:store-collection($id as xs:string, $collection-doc as document-nod
             "/db/apps/oidb-data/collections",
             $filename,
             (: TODO set updated instead of created if already exists :)
-            <collection id="{xmldb:decode($id)}" created="{current-dateTime()}">
+            <collection id="{$id}" created="{current-dateTime()}">
                 { $collection-doc/collection/* }
             </collection>
         )
