@@ -9,5 +9,6 @@
     <type>application</type>
     <target>oidb-data</target>
     <prepare>pre-install.xql</prepare>
+    <finish>post-install.xql</finish>
     <finish/>
 </meta>
