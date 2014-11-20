@@ -13,6 +13,11 @@ declare variable $target external;
 
 (: fix permission and ownership :)
 
+(: COLLECTIONS :)
+let $op := xmldb:create-collection($target, "/collections")
+let $op := sm:chgrp(xs:anyURI(concat($target, "/collections")), 'jmmc')
+let $op := sm:chmod(xs:anyURI(concat($target, "/collections")), 'rwxrwxr-x')
+
 (: TMP :)
 let $op := xmldb:create-collection($target, "/tmp")
 let $op := sm:chmod( xs:anyURI(concat($target,"/tmp")), "rwxrwxrwx")
