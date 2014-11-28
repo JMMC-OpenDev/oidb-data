@@ -10,13 +10,14 @@
         <zip basedir="." destfile="${build.dir}/${project.app}-${project.version}.xar" excludes="${build.dir}/*"/>
     </target>
 
-	<target name="dl-aspro-conf">
-	    <mkdir dir="instruments"/>
-		<exec executable="svn">
-		    <arg value="export"/>
-			<arg value="https://svn.jmmc.fr/jmmc-sw/ASPRO2/trunk/aspro-conf/src/main/resources/fr/jmmc/aspro/model"/>
-			<arg value="instruments/AsproConf"/>
-		</exec>
-	</target>
+    <target name="dl-aspro-conf">
+        <delete dir="instruments" failonerror="false"/>
+        <mkdir dir="instruments"/>
+        <exec executable="svn">
+            <arg value="export"/>
+            <arg value="https://svn.jmmc.fr/jmmc-sw/ASPRO2/trunk/aspro-conf/src/main/resources/fr/jmmc/aspro/model"/>
+            <arg value="instruments/AsproConf"/>
+        </exec>
+    </target>
 </project>
 
