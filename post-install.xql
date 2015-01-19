@@ -37,7 +37,12 @@ declare function local:set-permissions($path as xs:string, $perms as item()*) as
 (
     (: COLLECTIONS :)
     let $collections := xmldb:create-collection($target, 'collections')
-    return local:set-permissions($collections, ( false(), 'jmmc', 'rwxrwxr-x' )),
+    return (
+        local:set-permissions($collections, ( false(), 'jmmc', 'rwxrwxr-x' )),
+        (: set permissions of any static collection :)
+        for $r in xmldb:get-child-resources($collections)
+        return local:set-permissions(concat($collections, '/', $r), ( false(), 'oidb', 'rw-rw-r--'))
+        ),
 
     (: TMP :)
     let $tmp := xmldb:create-collection($target, 'tmp')
