@@ -1,0 +1,594 @@
+<people>
+    <person>
+        <firstname/>
+        <lastname>A jorissen</lastname>
+        <alias>A JORISSEN</alias>
+    </person>
+    <person>
+        <firstname/>
+        <lastname>Akeson</lastname>
+        <alias>Akeson</alias>
+    </person>
+    <person>
+        <firstname/>
+        <lastname>Baines</lastname>
+        <alias>Baines</alias>
+    </person>
+    <person>
+        <firstname/>
+        <lastname>Baron</lastname>
+        <alias>Baron</alias>
+    </person>
+    <person>
+        <firstname/>
+        <lastname>Boden</lastname>
+        <alias>Boden</alias>
+    </person>
+    <person>
+        <firstname/>
+        <lastname>Bowsher</lastname>
+        <alias>Bowsher</alias>
+    </person>
+    <person>
+        <firstname/>
+        <lastname>Boyajian</lastname>
+        <alias>Boyajian</alias>
+    </person>
+    <person>
+        <flag>tech</flag>
+        <firstname/>
+        <lastname>Control model accoun</lastname>
+        <alias>CONTROL MODEL ACCOUN</alias>
+    </person>
+    <person>
+        <firstname/>
+        <lastname>Choquet</lastname>
+        <alias>Choquet</alias>
+    </person>
+    <person>
+        <firstname/>
+        <lastname>Ciardi</lastname>
+        <alias>Ciardi</alias>
+    </person>
+    <person>
+        <firstname/>
+        <lastname>Crenshaw</lastname>
+        <alias>Crenshaw</alias>
+    </person>
+    <person>
+        <firstname/>
+        <lastname>Csizmadia</lastname>
+        <alias>Csizmadia</alias>
+    </person>
+    <person>
+        <firstname/>
+        <lastname>De becker</lastname>
+        <alias>DE BECKER</alias>
+    </person>
+    <person>
+        <firstname/>
+        <lastname>De wit</lastname>
+        <alias>DE WIT</alias>
+    </person>
+    <person>
+        <firstname/>
+        <lastname>Di folco</lastname>
+        <alias>DI FOLCO</alias>
+    </person>
+    <person>
+        <firstname/>
+        <lastname>Eisner</lastname>
+        <alias>Eisner</alias>
+    </person>
+    <person>
+        <firstname/>
+        <lastname>Farrington</lastname>
+        <alias>Farrington</alias>
+    </person>
+    <person>
+        <firstname/>
+        <lastname>Gelino</lastname>
+        <alias>Gelino</alias>
+    </person>
+    <person>
+        <firstname/>
+        <lastname>Gies</lastname>
+        <alias>Gies</alias>
+    </person>
+    <person>
+        <firstname/>
+        <lastname>Gordon</lastname>
+        <alias>Gordon</alias>
+    </person>
+    <person>
+        <firstname/>
+        <lastname>Hillen</lastname>
+        <alias>Hillen</alias>
+        <alias>HILLEN</alias>
+    </person>
+    <person>
+        <firstname/>
+        <lastname>Huber</lastname>
+        <alias>Huber</alias>
+    </person>
+    <person>
+        <firstname/>
+        <lastname>Ireland</lastname>
+        <alias>Ireland</alias>
+    </person>
+    <person>
+        <firstname/>
+        <lastname>Jones</lastname>
+        <alias>Jones</alias>
+    </person>
+    <person>
+        <firstname/>
+        <lastname>Kishimoto</lastname>
+        <alias>Kishimoto</alias>
+    </person>
+    <person>
+        <firstname/>
+        <lastname>Kloppenborg</lastname>
+        <alias>Kloppenborg</alias>
+    </person>
+    <person>
+        <flag>instrument-pi</flag>
+        <firstname/>
+        <lastname>Le bouquin</lastname>
+        <alias>LE BOUQUIN</alias>
+    </person>
+    <person>
+        <firstname/>
+        <lastname>López-gonzaga, n.</lastname>
+        <alias>López-Gonzaga, N.</alias>
+    </person>
+    <person>
+        <firstname/>
+        <lastname>Mason</lastname>
+        <alias>Mason</alias>
+    </person>
+    <person>
+        <firstname/>
+        <lastname>Mcalister</lastname>
+        <alias>McAlister</alias>
+    </person>
+    <person>
+        <firstname/>
+        <lastname>Millan-gabet</lastname>
+        <alias>Millan-Gabet</alias>
+    </person>
+    <person>
+        <firstname/>
+        <lastname>Monnier</lastname>
+        <alias>Monnier</alias>
+    </person>
+    <person>
+        <firstname/>
+        <lastname>Morgan</lastname>
+        <alias>Morgan</alias>
+    </person>
+    <person>
+        <firstname/>
+        <lastname>O'brien</lastname>
+        <alias>O'Brien</alias>
+    </person>
+    <person>
+        <flag>tech</flag>
+        <firstname/>
+        <lastname>Observatory, p</lastname>
+        <alias>OBSERVATORY, P</alias>
+    </person>
+    <person>
+        <firstname/>
+        <lastname>Parks</lastname>
+        <alias>Parks</alias>
+    </person>
+    <person>
+        <firstname/>
+        <lastname>Queue</lastname>
+        <alias>Queue</alias>
+    </person>
+    <person>
+        <firstname/>
+        <lastname>R. white</lastname>
+        <alias>R. White</alias>
+    </person>
+    <person>
+        <firstname/>
+        <lastname>Raghavan</lastname>
+        <alias>Raghavan</alias>
+    </person>
+    <person>
+        <firstname/>
+        <lastname>Ragland</lastname>
+        <alias>Ragland</alias>
+    </person>
+    <person>
+        <firstname/>
+        <lastname>Richardson</lastname>
+        <alias>Richardson</alias>
+    </person>
+    <person>
+        <firstname/>
+        <lastname>Ridgway</lastname>
+        <alias>Ridgway</alias>
+    </person>
+    <person>
+        <firstname/>
+        <lastname>Schaefer</lastname>
+        <alias>Schaefer</alias>
+    </person>
+    <person>
+        <firstname/>
+        <lastname>Simon</lastname>
+        <alias>Simon</alias>
+    </person>
+    <person>
+        <firstname/>
+        <lastname>Sturmann</lastname>
+        <alias>Sturmann</alias>
+    </person>
+    <person>
+        <firstname/>
+        <lastname>Tannirkulam</lastname>
+        <alias>Tannirkulam</alias>
+    </person>
+    <person>
+        <firstname/>
+        <lastname>Thureau</lastname>
+        <alias>Thureau</alias>
+    </person>
+    <person>
+        <firstname/>
+        <lastname>Touhami</lastname>
+        <alias>Touhami</alias>
+    </person>
+    <person>
+        <firstname/>
+        <lastname>Turner</lastname>
+        <alias>Turner</alias>
+    </person>
+    <person>
+        <firstname/>
+        <lastname>Tuthill</lastname>
+        <alias>Tuthill</alias>
+    </person>
+    <person>
+        <firstname/>
+        <lastname>White</lastname>
+        <alias>White</alias>
+    </person>
+    <person>
+        <flag>instrument-pi</flag>
+        <firstname/>
+        <lastname>Ten brummelaar</lastname>
+        <alias>ten Brummelaar</alias>
+    </person>
+    <person>
+        <firstname/>
+        <lastname>Van belle</lastname>
+        <alias>van Belle</alias>
+    </person>
+    <person>
+        <firstname/>
+        <lastname>Von braun</lastname>
+        <alias>von Braun</alias>
+    </person>
+    <person>
+        <firstname/>
+        <lastname>Vonbraun</lastname>
+        <alias>vonBraun</alias>
+    </person>
+    <person>
+        <firstname> </firstname>
+        <lastname/>
+        <alias/>
+    </person>
+    <person>
+        <firstname> </firstname>
+        <lastname>Anderson</lastname>
+        <alias>ANDERSON</alias>
+    </person>
+    <person>
+        <firstname> </firstname>
+        <lastname>Benisty</lastname>
+        <alias>BENISTY</alias>
+    </person>
+    <person>
+        <firstname> </firstname>
+        <lastname>Berger</lastname>
+        <alias>Berger</alias>
+        <alias>BERGER</alias>
+        <alias>All</alias>
+    </person>
+    <person>
+        <firstname> </firstname>
+        <lastname>Boffin</lastname>
+        <alias>BOFFIN</alias>
+    </person>
+    <person>
+        <firstname> </firstname>
+        <lastname>Bonfils</lastname>
+        <alias>BONFILS</alias>
+    </person>
+    <person>
+        <firstname> </firstname>
+        <lastname>Breitfelder</lastname>
+        <alias>BREITFELDER</alias>
+    </person>
+    <person>
+        <firstname> </firstname>
+        <lastname>Chauvin</lastname>
+        <alias>CHAUVIN</alias>
+    </person>
+    <person>
+        <firstname> </firstname>
+        <lastname>Dougados</lastname>
+        <alias>DOUGADOS</alias>
+    </person>
+    <person>
+        <firstname> </firstname>
+        <lastname>Duvert</lastname>
+        <alias>DUVERT</alias>
+    </person>
+    <person>
+        <firstname> </firstname>
+        <lastname>Eckart</lastname>
+        <alias>ECKART</alias>
+    </person>
+    <person>
+        <firstname> </firstname>
+        <lastname>Ertel</lastname>
+        <alias>ERTEL</alias>
+    </person>
+    <person>
+        <firstname> </firstname>
+        <lastname>Gallenne</lastname>
+        <alias>GALLENNE</alias>
+    </person>
+    <person>
+        <firstname> </firstname>
+        <lastname>Gosset</lastname>
+        <alias>GOSSET</alias>
+    </person>
+    <person>
+        <firstname> </firstname>
+        <lastname>Grellmann</lastname>
+        <alias>GRELLMANN</alias>
+    </person>
+    <person>
+        <firstname> </firstname>
+        <lastname>Halbwachs</lastname>
+        <alias>HALBWACHS</alias>
+    </person>
+    <person>
+        <firstname> </firstname>
+        <lastname>Haubois</lastname>
+        <alias>HAUBOIS</alias>
+    </person>
+    <person>
+        <firstname> </firstname>
+        <lastname>Hron</lastname>
+        <alias>HRON</alias>
+    </person>
+    <person>
+        <firstname> </firstname>
+        <lastname>Kervella</lastname>
+        <alias>KERVELLA</alias>
+        <alias>Kervella</alias>
+    </person>
+    <person>
+        <firstname> </firstname>
+        <lastname>Kraus</lastname>
+        <alias>KRAUS</alias>
+        <alias>Kraus</alias>
+    </person>
+    <person>
+        <firstname> </firstname>
+        <lastname>Lachaume</lastname>
+        <alias>LACHAUME</alias>
+    </person>
+    <person>
+        <firstname> </firstname>
+        <lastname>Lacour</lastname>
+        <alias>LACOUR</alias>
+    </person>
+    <person>
+        <firstname> </firstname>
+        <lastname>Lagrange</lastname>
+        <alias>LAGRANGE</alias>
+    </person>
+    <person>
+        <firstname> </firstname>
+        <lastname>Malbet</lastname>
+        <alias>MALBET</alias>
+    </person>
+    <person>
+        <firstname> </firstname>
+        <lastname>Mayer</lastname>
+        <alias>MAYER</alias>
+    </person>
+    <person>
+        <firstname> </firstname>
+        <lastname>Menard</lastname>
+        <alias>MENARD</alias>
+    </person>
+    <person>
+        <firstname> </firstname>
+        <lastname>Monin</lastname>
+        <alias>MONIN</alias>
+    </person>
+    <person>
+        <firstname> </firstname>
+        <lastname>Montagnier</lastname>
+        <alias>MONTAGNIER</alias>
+    </person>
+    <person>
+        <firstname> </firstname>
+        <lastname>Montarges</lastname>
+        <alias>MONTARGES</alias>
+    </person>
+    <person>
+        <firstname> </firstname>
+        <lastname>Montargã¨s</lastname>
+        <alias>MONTARGÃ¨S</alias>
+    </person>
+    <person>
+        <firstname> </firstname>
+        <lastname>Nicolas</lastname>
+        <alias>NICOLAS</alias>
+    </person>
+    <person>
+        <firstname> </firstname>
+        <lastname>Olofsson</lastname>
+        <alias>OLOFSSON</alias>
+    </person>
+    <person>
+        <firstname> </firstname>
+        <lastname>Paladini</lastname>
+        <alias>PALADINI</alias>
+    </person>
+    <person>
+        <firstname> </firstname>
+        <lastname>Paumard</lastname>
+        <alias>PAUMARD</alias>
+    </person>
+    <person>
+        <firstname> </firstname>
+        <lastname>Petrucci</lastname>
+        <alias>PETRUCCI</alias>
+    </person>
+    <person>
+        <firstname> </firstname>
+        <lastname>Pietrzynski</lastname>
+        <alias>PIETRZYNSKI</alias>
+    </person>
+    <person>
+        <firstname> </firstname>
+        <lastname>Rabus</lastname>
+        <alias>RABUS</alias>
+    </person>
+    <person>
+        <firstname> </firstname>
+        <lastname>Sana</lastname>
+        <alias>SANA</alias>
+    </person>
+    <person>
+        <firstname> </firstname>
+        <lastname>Schoeller</lastname>
+        <alias>SCHOELLER</alias>
+    </person>
+    <person>
+        <firstname> </firstname>
+        <lastname>Stefl</lastname>
+        <alias>STEFL</alias>
+    </person>
+    <person>
+        <firstname> </firstname>
+        <lastname>Tristram</lastname>
+        <alias>TRISTRAM</alias>
+    </person>
+    <person>
+        <firstname> </firstname>
+        <lastname>Wheelwright</lastname>
+        <alias>WHEELWRIGHT</alias>
+    </person>
+    <person>
+        <firstname> </firstname>
+        <lastname>Wittkowski</lastname>
+        <alias>WITTKOWSKI</alias>
+    </person>
+    <person>
+        <firstname>Olivier</firstname>
+        <lastname>Absil</lastname>
+        <alias>ABSIL</alias>
+    </person>
+    <person>
+        <firstname>Philippe</firstname>
+        <lastname>Berio</lastname>
+        <alias>Philippe Berio</alias>
+    </person>
+    <person>
+        <firstname>Lionel</firstname>
+        <lastname>Bigot</lastname>
+        <alias>Lionel Bigot</alias>
+    </person>
+    <person>
+        <firstname>Nicolas</firstname>
+        <lastname>Blind</lastname>
+        <alias>Nicolas Blind</alias>
+    </person>
+    <person>
+        <firstname>Simon</firstname>
+        <lastname>Borgniet</lastname>
+        <alias>Simon Borgniet</alias>
+    </person>
+    <person>
+        <firstname>Olivier</firstname>
+        <lastname>Chesneau</lastname>
+        <alias>Olivier Chesneau</alias>
+        <alias>CHESNEAU</alias>
+    </person>
+    <person>
+        <firstname>Orlagh</firstname>
+        <lastname>Creevey</lastname>
+        <alias>Orlagh Creevey</alias>
+    </person>
+    <person>
+        <firstname>Omar</firstname>
+        <lastname>Delaa</lastname>
+        <alias>Omar Delaa</alias>
+    </person>
+    <person>
+        <firstname>Narges</firstname>
+        <lastname>Jamialahmadi</lastname>
+        <alias>Narges Jamialahmadi</alias>
+    </person>
+    <person>
+        <firstname>Roxanne</firstname>
+        <lastname>Ligi</lastname>
+        <alias>Roxanne Ligi</alias>
+    </person>
+    <person>
+        <firstname>Anthony</firstname>
+        <lastname>Meilland</lastname>
+        <alias>Anthony Meilland</alias>
+    </person>
+    <person>
+        <firstname>Challouf</firstname>
+        <lastname>Mounir</lastname>
+        <alias>challouf mounir</alias>
+    </person>
+    <person>
+        <flag>instrument-pi</flag>
+        <firstname>Denis</firstname>
+        <lastname>Mourard</lastname>
+        <alias>Denis Mourard</alias>
+        <alias>Mourard</alias>
+    </person>
+    <person>
+        <firstname>Nicolas</firstname>
+        <lastname>Nardetto</lastname>
+        <alias>Nicolas Nardetto</alias>
+    </person>
+    <person>
+        <firstname>Jana</firstname>
+        <lastname>Nemravova</lastname>
+        <alias>Jana Nemravova</alias>
+    </person>
+    <person>
+        <firstname>Karine</firstname>
+        <lastname>Perraut</lastname>
+        <alias>Karine Perraut</alias>
+    </person>
+    <person>
+        <firstname>Philippe</firstname>
+        <lastname>Stee</lastname>
+        <alias>Philippe Stee</alias>
+    </person>
+    <person>
+        <firstname>Isabelle</firstname>
+        <lastname>Tallon-Bosc</lastname>
+        <alias>Isabelle Tallon-Bosc</alias>
+    </person>
+</people>

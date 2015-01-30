@@ -35,6 +35,10 @@ declare function local:set-permissions($path as xs:string, $perms as item()*) as
 
 (: create directory tree and set permissions :)
 (
+    (: People :)
+     local:set-permissions($target||"/people", (false(), 'oidb', 'r-xr-x--x')),
+     local:set-permissions($target||"/people/people.xml", (false(), 'oidb', 'rw-rw-r--')),
+
     (: COLLECTIONS :)
     let $collections := xmldb:create-collection($target, 'collections')
     return (
@@ -47,6 +51,7 @@ declare function local:set-permissions($path as xs:string, $perms as item()*) as
     (: TMP :)
     let $tmp := xmldb:create-collection($target, 'tmp')
     return local:set-permissions($tmp, ( false(), false(), 'rwxrwxrwx' )),
+
 
     (: LOG FILES :)
     let $dir := xmldb:create-collection($target, "log")
