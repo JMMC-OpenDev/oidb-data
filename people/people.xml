@@ -68,7 +68,7 @@
     <person>
         <firstname/>
         <lastname>De wit</lastname>
-        <alias>DE WIT</alias>
+        <alias email="wdewit@eso.org">DE WIT</alias>
     </person>
     <person>
         <firstname/>
@@ -136,6 +136,8 @@
         <firstname/>
         <lastname>Le bouquin</lastname>
         <alias>LE BOUQUIN</alias>
+        <alias>Jean-Baptiste Le Bouquin</alias>
+        <alias email="jean-baptiste.lebouquin@obs.ujf-grenoble.fr">LeBouquin</alias>
     </person>
     <person>
         <firstname/>
@@ -236,7 +238,7 @@
     <person>
         <firstname/>
         <lastname>Thureau</lastname>
-        <alias>Thureau</alias>
+        <alias email="nthureau@gmail.com">Thureau</alias>
     </person>
     <person>
         <firstname/>
@@ -263,6 +265,7 @@
         <firstname/>
         <lastname>Ten brummelaar</lastname>
         <alias>ten Brummelaar</alias>
+        <alias email="theo@chara-array.org">Theo ten Brummelaar</alias>
     </person>
     <person>
         <firstname/>
@@ -292,7 +295,7 @@
     <person>
         <firstname> </firstname>
         <lastname>Benisty</lastname>
-        <alias>BENISTY</alias>
+        <alias email="Myriam.Benisty@obs.ujf-grenoble.fr">BENISTY</alias>
     </person>
     <person>
         <firstname> </firstname>
@@ -319,7 +322,7 @@
     <person>
         <firstname> </firstname>
         <lastname>Chauvin</lastname>
-        <alias>CHAUVIN</alias>
+        <alias email="gael.chauvin@obs.ujf-grenoble.fr">CHAUVIN</alias>
     </person>
     <person>
         <firstname> </firstname>
@@ -344,7 +347,7 @@
     <person>
         <firstname> </firstname>
         <lastname>Gallenne</lastname>
-        <alias>GALLENNE</alias>
+        <alias email="alexandre.gallenne@obspm.fr">GALLENNE</alias>
     </person>
     <person>
         <firstname> </firstname>
@@ -369,7 +372,7 @@
     <person>
         <firstname> </firstname>
         <lastname>Hron</lastname>
-        <alias>HRON</alias>
+        <alias email="josef.hron@univie.ac.at">HRON</alias>
     </person>
     <person>
         <firstname> </firstname>
@@ -427,6 +430,7 @@
         <firstname> </firstname>
         <lastname>Montarges</lastname>
         <alias>MONTARGES</alias>
+        <alias>MONTARGÃƒÂ¨S</alias>
     </person>
     <person>
         <firstname> </firstname>
@@ -517,27 +521,29 @@
         <firstname>Nicolas</firstname>
         <lastname>Blind</lastname>
         <alias>Nicolas Blind</alias>
+        <alias>Blind N.</alias>
     </person>
     <person>
         <firstname>Simon</firstname>
         <lastname>Borgniet</lastname>
-        <alias>Simon Borgniet</alias>
+        <alias email="simon.borgniet@obs.ujf-grenoble.fr">Simon Borgniet</alias>
     </person>
     <person>
         <firstname>Olivier</firstname>
         <lastname>Chesneau</lastname>
-        <alias>Olivier Chesneau</alias>
+        <alias email="Olivier.Chesneau@obs-azur.fr">Olivier Chesneau</alias>
         <alias>CHESNEAU</alias>
+        <alias>Chesneau O.</alias>
     </person>
     <person>
         <firstname>Orlagh</firstname>
         <lastname>Creevey</lastname>
-        <alias>Orlagh Creevey</alias>
+        <alias email="ocreevey@oca.eu">Orlagh Creevey</alias>
     </person>
     <person>
         <firstname>Omar</firstname>
         <lastname>Delaa</lastname>
-        <alias>Omar Delaa</alias>
+        <alias email="Omar.delaa@obs-azur.fr">Omar Delaa</alias>
     </person>
     <person>
         <firstname>Narges</firstname>
@@ -552,7 +558,7 @@
     <person>
         <firstname>Anthony</firstname>
         <lastname>Meilland</lastname>
-        <alias>Anthony Meilland</alias>
+        <alias email="ame@oca.eu">Anthony Meilland</alias>
     </person>
     <person>
         <firstname>Challouf</firstname>
@@ -564,12 +570,13 @@
         <firstname>Denis</firstname>
         <lastname>Mourard</lastname>
         <alias>Denis Mourard</alias>
-        <alias>Mourard</alias>
+        <alias email="denis.mourard@oca.eu">Mourard</alias>
     </person>
     <person>
         <firstname>Nicolas</firstname>
         <lastname>Nardetto</lastname>
         <alias>Nicolas Nardetto</alias>
+        <alias>Nardetto</alias>
     </person>
     <person>
         <firstname>Jana</firstname>
@@ -580,6 +587,7 @@
         <firstname>Karine</firstname>
         <lastname>Perraut</lastname>
         <alias>Karine Perraut</alias>
+        <alias>Perraut</alias>
     </person>
     <person>
         <firstname>Philippe</firstname>
@@ -591,4 +599,30 @@
         <lastname>Tallon-Bosc</lastname>
         <alias>Isabelle Tallon-Bosc</alias>
     </person>
+    <person>
+        <firstname>Guillaume</firstname>
+        <lastname> Mella</lastname>
+        <alias email="guillaume.mella@obs.ujf-grenoble.fr">Guillaume Mella</alias>
+    </person>
+    <person>
+        <firstname>Gerd</firstname>
+        <lastname>Weigelt</lastname>
+        <alias>Weigelt</alias>
+    </person>
+    <person>
+        <firstname>Marion</firstname>
+        <lastname/>
+        <alias>MARION</alias>
+    </person>
+    <person>
+        <firstname>Anthonioz</firstname>
+        <lastname>Fabien</lastname>
+        <alias>ANTHONIOZ</alias>
+    </person>
+    <person>
+        <firstname>CHATY</firstname>
+        <lastname/>
+        <alias>CHATY</alias>
+    </person>
 </people>
+
