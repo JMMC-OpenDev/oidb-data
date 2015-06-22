@@ -1,7 +1,7 @@
 <collection id="chara_import" created="2014-08-05T12:00:00.000+02:00">
-    <name>CHARA Import</name>
-    <title>CHARA observation logs</title>
+    <name>CLIMB/CLASSIC import</name>
+    <title>CLIMB/CLASSIC observation logs</title>
     <description>
-      This collection gathers CHARA observation logs.
+      This collection gathers CLIMB/CLASSIC observation logs from CHARA.
     </description>
 </collection>
