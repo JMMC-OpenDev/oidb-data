@@ -55,7 +55,7 @@ declare function local:set-permissions($path as xs:string, $perms as item()*) as
 
     (: LOG FILES :)
     let $dir := xmldb:create-collection($target, "log")
-    let $logs := ( 'downloads', 'searches', 'submits' )
+    let $logs := ( 'downloads', 'searches', 'submits', 'visits' )
     return
         for $l in $logs
         (: create the empty XML document :)
