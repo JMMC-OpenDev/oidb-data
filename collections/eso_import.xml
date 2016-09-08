@@ -1,0 +1,7 @@
+<collection id="eso_import" created="2016-09-08T08:27:00.000+02:00">
+    <name>ESO import</name>
+    <title>ESO/VLTI instruments observation logs</title>
+    <description>
+      This collection gathers observation logs from ESO/VLTI.
+    </description>
+</collection>
