@@ -2,6 +2,6 @@
     <name>ESO VLTI import</name>
     <title>ESO/VLTI instruments observation logs</title>
     <description>
-      This collection gathers observation logs from ESO/VLTI.
+      This collection gathers observation logs from ESO/VLTI. Current max recno : <recno>0</recno>.
     </description>
 </collection>
