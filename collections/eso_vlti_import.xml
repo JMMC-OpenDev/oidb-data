@@ -1,7 +1,10 @@
 <collection id="eso_vlti_import" created="2016-09-08T08:27:00.000+02:00">
     <name>ESO VLTI import</name>
     <title>ESO/VLTI instruments observation logs</title>
-    <description>
-      This collection gathers observation logs from ESO/VLTI. Current max recno : <recno>0</recno>.
+   <description>
+     This collection gathers observation logs from ESO/VLTI. 
+     <br/>
+     The records have been collected stored and harvested from the <a href="//obs.jmmc.fr">JMMC Obsportal</a>
+     <br/>Last granule's modification date : <em id="last-mod-date">2000-01-01T00:00:00</em>. 
     </description>
 </collection>
