@@ -5,22 +5,12 @@
     <property name="project.app" value="oidb-data"/>
     <property name="build.dir" value="build"/>
 
-    <target name="xar" depends="dl-aspro-conf">
+    <target name="xar">
         <mkdir dir="${build.dir}"/>
         <delete dir="${build.dir}" includes="*.xar"/>
 
         <zip basedir="." destfile="${build.dir}/${project.app}-${project.version}.xar"
              excludes="${build.dir}/**,.exist/**,target/**,build.xml,pom.xml"/>
-    </target>
-
-    <target name="dl-aspro-conf">
-        <delete dir="instruments" failonerror="false"/>
-        <mkdir dir="instruments"/>
-        <exec executable="svn">
-            <arg value="export"/>
-            <arg value="https://svn.jmmc.fr/jmmc-sw/ASPRO2/trunk/aspro-conf/src/main/resources/fr/jmmc/aspro/model"/>
-            <arg value="instruments/AsproConf"/>
-        </exec>
     </target>
 </project>
 
